@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', sans-serif;
+    margin: 0;
     /* margin: 0;
     padding: 0;
     background-color: #000;
@@ -23,9 +24,16 @@ body{
     text-align: left;
     list-style-type: none;
   }
-  #blok{
+  .blok{
     margin-left: 30%;
     margin-right: 30%;
+  }
+  .blokP{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  section{
+    text-align: right;
   }
   /* #opis{
     float: left;

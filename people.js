@@ -22,7 +22,7 @@ function fetchPeople(){
                     description = document.createElement('li')
                     description.innerHTML = ok.description
                     img = document.createElement('img')
-                    img.innerHTML = ok.image
+                    img.src = ok.image
                     subList.appendChild(description)
                     subList.appendChild(img)
                 })
